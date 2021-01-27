@@ -14,7 +14,7 @@ const createMessage = (obj) => {
     let randomNumber1 = Math.floor(Math.random() * obj.firstPart.length);
     let randomNumber2 = Math.floor(Math.random() * obj.secondPart.length);
     let randomNumber3 = Math.floor(Math.random()* obj.thirdPart.length);
-    let message = `Your first advice of the day is: ' ${obj.firstPart[randomNumber1]} 'This will be a good thing to keep in mind: ' ${obj.secondPart[randomNumber2]} 'And this is your final quote of the day: ' ${obj.thirdPart[randomNumber3]}`;
+    let message = `Your first advice of the day is: ' ${obj.firstPart[randomNumber1]}\n'This will be a good thing to keep in mind: ' ${obj.secondPart[randomNumber2]}\n'And this is your final quote of the day: ' ${obj.thirdPart[randomNumber3]}`;
     return message;
 }
 
